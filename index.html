@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+        html,body{
+    height: 100%;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  background-color: #252629;
+}
+
+#welcome {
+top: 30%;
+	font-family: Helvetica, Arial, sans-serif;
+max-width: 100%;
+box-align: center;
+font-size: 5vw; /*or vh depends*/
+text-align: center;
+color: white;
+margin: auto;
+position: relative;    
+} 
+
+@media screen and (min-width: 1200px){
+#welcome{
+top: 20%;
+font-size: 17vh;}
+}
+        </style>
+    <meta charset="utf-8">
+    <title id="title">Milan Patel</title>
+    <script src = './app.js'></script>
+    <link rel='stylesheet' ref='app.css'/>
+  </head>
+  <body>
+    <div id="welcome">
+      Welcome! I'm Milan Patel. <br/>
+      I like <div id="message"></div>
+    </div>
+  </body>
+</html>
